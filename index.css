@@ -146,39 +146,59 @@ footer .contacts {
     margin-right: 100px;
 }
 
-footer .forumlar{
+footer .forumlar {
     margin-right: 100px;
 }
 
-footer .Bolimlar{
-  margin-left: 100px;
+footer .Bolimlar {
+    margin-left: 100px;
 }
 
 /* --Footer-- */
 
-@media (max-width:1400px){
-    .work-r{
+@media (max-width:1400px) {
+    .work-r {
         width: 100%;
         border-right: none;
     }
-    .work-r img{
+
+    .work-r img {
         width: 650px;
 
     }
+
     .work-l-item {
         width: 100%;
     }
 }
-@media (max-width:768px){
-    .work-r{
+
+@media (max-width:768px) {
+    .work-r {
         width: 100%;
         border-right: none;
     }
-    .work-r img{
+
+    .work-r img {
         width: 500px;
 
     }
+
     .work-l-item {
         width: 100%;
     }
 }
+ @media (max-width:546px) {
+        .work-r {
+            width: 100%;
+            border-right: none;
+        }
+
+        .work-r img {
+            width: 300px;
+
+        }
+
+        .work-l-item {
+            width: 100%;
+        }
+    }
