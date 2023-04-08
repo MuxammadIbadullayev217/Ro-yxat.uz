@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-image: url(./img/download.png);
+}
+
+/* --Navbar-- */
+.navbar .img {
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+.navabr-nav {
+    gap: 50px;
+}
+
+
+/* --Navbar-- */
+/* --Header-- */
+
+
+
+.work-items a {
+    padding-bottom: 20px;
+}
+
+.work-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.row a {
+    width: 300px;
+}
+
+.work-item .overley-menu {
+    width: 410px;
+    background: linear-gradient(90deg, #008d00, #0ebd0e39);
+    position: absolute;
+    bottom: -50%;
+    transition: all 0.5s linear;
+    padding: 10px;
+    text-align: left;
+
+}
+
+.work-item .overley-menu h4 {
+    font-size: 16px;
+    color: white;
+}
+
+.work-item .overley-menu p {
+    font-size: 15px;
+    color: white;
+}
+
+.work-image img {
+    width: 100%;
+    height: 300px;
+}
+
+.work-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.work-item {
+    width: 270px;
+    height: 200px;
+    transition: all 300ms linear;
+}
+
+.work-item .rating {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--sp-light-green2);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.rating ion-icon {
+    font-size: 1.5rem;
+}
+
+.work-item:hover .overley-menu {
+    bottom: 0;
+}
+
+.work-items a {
+    display: flex;
+    gap: 20px;
+}
+
+.work-item:hover {
+    transform: scale(1.08);
+}
+
+/* --Header-- */
+/* --Main-- */
+/* --Work-- */
+.work-r img {
+    height: 500px;
+    width: 800px;
+
+}
+
+.work-r {
+    border-right: 1px solid rgb(73, 73, 243);
+    border-bottom: 1px solid rgb(73, 73, 243);
+    padding-right: 30px;
+}
+
+.work-l-item img {
+    width: 113px;
+    height: 84px;
+}
+
+
+/* --Work-- */
+/* --Yangiliklar-- */
+.card {
+    width: 396px !important;
+}
+
+/* --Yangiliklar-- */
+/* --Main-- */
+/* --Footer-- */
+footer {
+    padding: 100px;
+}
+
+footer .contacts {
+    margin-right: 100px;
+}
+
+footer .forumlar{
+    margin-right: 100px;
+}
+
+footer .Bolimlar{
+  margin-left: 100px;
+}
+
+/* --Footer-- */
+
+@media (max-width:1400px){
+    .work-r{
+        width: 100%;
+        border-right: none;
+    }
+    .work-r img{
+        width: 650px;
+
+    }
+    .work-l-item {
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    .work-r{
+        width: 100%;
+        border-right: none;
+    }
+    .work-r img{
+        width: 500px;
+
+    }
+    .work-l-item {
+        width: 100%;
+    }
+}
